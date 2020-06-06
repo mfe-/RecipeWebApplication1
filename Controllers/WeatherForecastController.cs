@@ -7,6 +7,10 @@ using Microsoft.Extensions.Logging;
 
 namespace RecipeWebApplication1.Controllers
 {
+
+    //https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/microservice-application-layer-implementation-web-api
+
+
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
